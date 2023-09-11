@@ -15,11 +15,10 @@ public class Recepcionista extends Usuarios {
         agendas.add(agenda);
     }
 
+    // EXIBE AS CONSULTAS JÁ MARCADAS
     public void exibeAgenda(){
         for (Agenda i : agendas) {
             i.listarConsultas();
         }
     }
-
-
 }

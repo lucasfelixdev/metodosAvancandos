@@ -18,15 +18,9 @@ public class Main {
         medico2.solicitaExame(paciente1, "EXAME01");
         medico2.prescreveMedicacao(paciente1, "MEDICAMENTO02");
        
-
+        // Exibe dados do paciente, medicamentos e o médico que o atendeu.
         paciente1.dadosPaciente();
 
-        
-    
-
-        
-
-        // Verificando agenda
 
 
 
